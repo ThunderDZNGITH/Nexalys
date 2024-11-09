@@ -47,3 +47,16 @@ void createDatabases() {
 		cout << "La base de données '"<<db::PATH_db_missingvacation<<"' existe." << endl;
 	}
 }
+
+void addData(databaseType db, string data) {
+	switch(db){
+	case DB_Employees:
+		break;
+	case DB_Salaries:
+		break;
+	case DB_Missingvacation:
+		break;
+	case default:
+		break;
+	}
+}
